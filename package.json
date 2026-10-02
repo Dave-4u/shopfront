@@ -1,0 +1,14 @@
+{
+  "name": "shopfront",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShopFront: a friendly e-commerce storefront demo (catalog, bag, checkout) in vanilla JS.",
+  "scripts": {
+    "start": "node scripts/serve.js 8080",
+    "test": "node tests/smoke.js"
+  },
+  "devDependencies": {
+    "playwright-core": "1.47.2"
+  },
+  "license": "MIT"
+}
